@@ -5,7 +5,7 @@ int main()
 {
 	double a, b;
 
-	cout << " Naiti summy, raznost, proizwedenie i chasnoe a i b" << endl << " Vvedite a i b" << endl;
+	cout << " Naiti summy, raznost, proizwedenie i chasnoe kvadratov a i b" << endl << " Vvedite a i b" << endl;
 	cin >> a >> b;
 
 	a = a * a;
