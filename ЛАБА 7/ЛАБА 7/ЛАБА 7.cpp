@@ -125,10 +125,16 @@ int six()
 
 	double Y = Delta2 / Delta;
 	double X = Delta1 / Delta;
+	if (Delta == 0)
+	{
 
+		std::cout << "Дельта равна нулю, у системы бесконечно много решений" << "\n";
+
+
+		return 0;
+
+	}
 	std::cout << "X = " << X << " Y = " << Y << "\n\n";
-
-	return 0;
 }
 
 int main()
