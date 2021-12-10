@@ -142,15 +142,7 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
-	one();
-
-	two();
-
-	three();
-
-	four();
-
-	five();
+	
 
 	six();
 }
